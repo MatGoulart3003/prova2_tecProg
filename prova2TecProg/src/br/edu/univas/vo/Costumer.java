@@ -8,7 +8,7 @@ public class Costumer {
 	private String cpf;
 	private PaymentMethod paymentMethod;
 	
-	Costumer (long id, String name, String cpf ){
+	Costumer (long id, String name, String cpf ) {
 		
 		setId(id);
 		setName(name);
