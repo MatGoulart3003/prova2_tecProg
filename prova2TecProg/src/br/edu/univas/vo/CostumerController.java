@@ -19,10 +19,14 @@ public class CostumerController {
 		int option = choosePaymentMethod();
 		
 		if (option < 0 || option > 4) {
-			throw new PaymentMethodNotAllowedExeption();
-		}
 		
-		return cost;
+			throw new PaymentMethodNotAllowedExeption();
+		
+		}else {
+
+			return cost;
+			
+		}
 	}
 	
 	public int ReadInt() {
