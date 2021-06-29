@@ -1,5 +1,7 @@
 package br.edu.univas.vo;
 
-public class CreditCard {
+public class CreditCard implements PaymentMethod {
+
+	
 
 }

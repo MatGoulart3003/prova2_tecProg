@@ -1,5 +1,6 @@
 package br.edu.univas.vo;
 
-public class AccountDebit {
+public class AccountDebit implements PaymentMethod{
 
+	
 }
